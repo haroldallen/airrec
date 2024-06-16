@@ -22,6 +22,11 @@ p, h1 { margin: 0; }
     font-size: 48px;
     font-weight: 700;
 }
+.jsb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 header {
     padding: 12px 48px;
@@ -44,6 +49,20 @@ header {
     margin-bottom: 24px;
     border-radius: var(--radius);
     object-fit: cover;
+}
+.difficulty {
+    padding: 4px 12px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+.difficulty.hard {
+    background-color: #ff000080;
+}
+.difficulty.medium {
+    background-color: #ffae0080;
+}
+.difficulty.easy {
+    background-color: #00ff0d80;
 }
 
 .inputs {

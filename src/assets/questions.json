@@ -20,5 +20,23 @@
                 "answer": "manufacturer"
             }
         ]
+    },
+    {
+        "type": "multiple_choice",
+        "answer": "designation",
+        "title": "What is this [type]'s designation (e.g. F-35B)?",
+        "difficulty": "easy"
+    },
+    {
+        "type": "multiple_choice",
+        "answer": "callsign",
+        "title": "What is this [type]'s callsign (e.g. Lightning II)?",
+        "difficulty": "easy"
+    },
+    {
+        "type": "multiple_choice",
+        "answer": "manufacturer",
+        "title": "What is this [type]'s manufacturer (e.g. Lockheed Martin)?",
+        "difficulty": "medium"
     }
 ]
