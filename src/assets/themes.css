@@ -1,0 +1,10 @@
+.theme-dark {
+    --background: #181818;
+    --color: #f8f8f8;
+    --input: #0e0e0e;
+    --accessibility: #ffffff20;
+}
+:root {
+    --radius: 12px;
+    --font-family: 'Inria Serif', serif;
+}

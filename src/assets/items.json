@@ -1,0 +1,32 @@
+[
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/US_Navy_P-8_Poseidon_taking_off_at_Perth_Airport.jpg",
+        "designation": "P-8",
+        "callsign": "Poseidon",
+        "manufacturer": "Boeing"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/C-17_test_sortie.jpg/1200px-C-17_test_sortie.jpg",
+        "designation": "C-17",
+        "callsign": "Globemaster",
+        "manufacturer": "Boeing"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RAF_Eurofighter_EF-2000_Typhoon_F2_Lofting-1.jpg/1200px-RAF_Eurofighter_EF-2000_Typhoon_F2_Lofting-1.jpg",
+        "designation": "FGR4",
+        "callsign": "Typhoon",
+        "manufacturer": "Eurofighter"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Spitfire_-_Season_Premiere_Airshow_2018_%28cropped%29.jpg",
+        "designation": null,
+        "callsign": "Spitfire",
+        "manufacturer": "Supermarine"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Hawker_Hurricane_I_%27R4118_UP-W%27_%28G-HUPW%29_%2841455530471%29.jpg/1200px-Hawker_Hurricane_I_%27R4118_UP-W%27_%28G-HUPW%29_%2841455530471%29.jpg",
+        "designation": null,
+        "callsign": "Hurricane",
+        "manufacturer": "Hawker"
+    }
+]
