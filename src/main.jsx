@@ -16,9 +16,9 @@ function Main() {
     }
     return <>
         <header className="jsb">
-            <div>
+            <div className="left">
+                <a className="logo" href="/">ALLEN</a><span>/</span>
                 <p className="title">airrec</p>
-                <p>Designed by Cdt Allen (104 Sqn Air Cadets)</p>
             </div>
             <p className="score">{score.score}/{score.total}</p>
         </header>
