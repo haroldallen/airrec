@@ -41,13 +41,13 @@ header .left {
     align-items: center;
     gap: 24px;
     font-size: 24px;
-    letter-spacing: 3.92px;
 }
 header .left .logo {
     font-size: 48px;
     font-family: Inter, Helvetica, sans-serif;
     color: var(--color);
     text-decoration: none;
+    letter-spacing: 3.92px;
 }
 header .left span {
     opacity: 0.5;
