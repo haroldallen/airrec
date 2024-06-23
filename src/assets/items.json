@@ -1,6 +1,7 @@
 [
     {
         "type": "plane",
+        "category": "military",
         "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/US_Navy_P-8_Poseidon_taking_off_at_Perth_Airport.jpg",
         "designation": "P-8",
         "callsign": "Poseidon",
@@ -8,6 +9,7 @@
     },
     {
         "type": "plane",
+        "category": "military",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/C-17_test_sortie.jpg/1200px-C-17_test_sortie.jpg",
         "designation": "C-17",
         "callsign": "Globemaster",
@@ -15,6 +17,7 @@
     },
     {
         "type": "plane",
+        "category": "military",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RAF_Eurofighter_EF-2000_Typhoon_F2_Lofting-1.jpg/1200px-RAF_Eurofighter_EF-2000_Typhoon_F2_Lofting-1.jpg",
         "designation": "FGR4",
         "callsign": "Typhoon",
@@ -22,6 +25,15 @@
     },
     {
         "type": "plane",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/RAF_Tornado_GR4_MOD_45155233.jpg",
+        "designation": "GR4",
+        "callsign": "Tornado",
+        "manufacturer": "Panavia"
+    },
+    {
+        "type": "plane",
+        "category": "military",
         "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Spitfire_-_Season_Premiere_Airshow_2018_%28cropped%29.jpg",
         "designation": null,
         "callsign": "Spitfire",
@@ -29,6 +41,7 @@
     },
     {
         "type": "plane",
+        "category": "military",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Hawker_Hurricane_I_%27R4118_UP-W%27_%28G-HUPW%29_%2841455530471%29.jpg/1200px-Hawker_Hurricane_I_%27R4118_UP-W%27_%28G-HUPW%29_%2841455530471%29.jpg",
         "designation": null,
         "callsign": "Hurricane",
@@ -36,6 +49,7 @@
     },
     {
         "type": "glider",
+        "category": "training",
         "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Grob_103_79N.jpg",
         "designation": "T1",
         "callsign": "Viking",
@@ -43,6 +57,7 @@
     },
     {
         "type": "drone",
+        "category": "military",
         "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg",
         "designation": "MQ-9B",
         "callsign": "Protector",
@@ -50,6 +65,7 @@
     },
     {
         "type": "helicopter",
+        "category": "military",
         "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/EC-135_-_RIAT_2011_%286199185182%29.jpg",
         "designation": "HT1",
         "callsign": "Juno",
@@ -57,9 +73,170 @@
     },
     {
         "type": "helicopter",
+        "category": "military",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/RAF_H145_Jupiter_Helicopter_MOD_45166205.jpg/1280px-RAF_H145_Jupiter_Helicopter_MOD_45166205.jpg",
         "designation": "HT1",
         "callsign": "Jupiter",
         "manufacturer": "Airbus"
+    },
+    {
+        "type": "helicopter",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Eurocopter_AS332M-1_Super_Puma_%E2%80%98T-319%E2%80%99.jpg",
+        "designation": "AS-332",
+        "callsign": "Super Puma",
+        "manufacturer": "Eurocopter"
+    },
+    {
+        "type": "helicopter",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/MV-22_mcas_Miramar_2014.JPG/1200px-MV-22_mcas_Miramar_2014.JPG",
+        "designation": "V-22",
+        "callsign": "Osprey",
+        "manufacturer": "Boeing"
+    },
+    {
+        "type": "helicopter",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/AH-64D_Apache_Longbow.jpg",
+        "designation": "AH-64",
+        "callsign": "Apache",
+        "manufacturer": "Boeing"
+    },
+    {
+        "type": "helicopter",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/CH-47_assigned_to_3rd_General_Support_Aviation_Battalion%2C_82nd_Combat_Aviation_Brigade.jpg/1200px-CH-47_assigned_to_3rd_General_Support_Aviation_Battalion%2C_82nd_Combat_Aviation_Brigade.jpg",
+        "designation": "CH-47",
+        "callsign": "Chinook",
+        "manufacturer": "Boeing"
+    },
+    {
+        "type": "plane",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Battle_of_Britain_Memorial_flight_Avro_Lancaster_%28cropped%29.jpg",
+        "designation": null,
+        "callsign": "Lancaster",
+        "manufacturer": "Avro"
+    },
+    {
+        "type": "plane",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Lockheed_C-130_Hercules.jpg",
+        "designation": "C-130",
+        "callsign": "Hercules",
+        "manufacturer": "Lockheed Martin"
+    },
+    {
+        "type": "plane",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/USAF_C-5_Galaxy_in_flight.jpg",
+        "designation": "C-5",
+        "callsign": "Galaxy",
+        "manufacturer": "Lockheed Martin"
+    },
+    {
+        "type": "plane",
+        "category": "training",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Grob_120_TP-A_%E2%80%98D-ETPX%E2%80%99.jpg",
+        "designation": "T1",
+        "callsign": "Prefect",
+        "manufacturer": "Grob"
+    },
+    {
+        "type": "plane",
+        "category": "training",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/G-BYWL_-operated_by_16_%28R%29_Squadron.jpg",
+        "designation": "T1",
+        "callsign": "Tutor",
+        "manufacturer": "Grob"
+    },
+    {
+        "type": "glider",
+        "category": "training",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Grob.g109b.glider.arp.jpg",
+        "designation": "T1",
+        "callsign": "Vigilant",
+        "manufacturer": "Grob"
+    },
+    {
+        "type": "plane",
+        "category": "reconnaissance",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/E-2D_Advanced_Hawkeye_aircraft_conduct_a_test_flight.jpg",
+        "designation": "E-2",
+        "callsign": "Hawkeye",
+        "manufacturer": "Northrop Grumman"
+    },
+    {
+        "type": "plane",
+        "category": "reconnaissance",
+        "image": "https://media.defense.gov/2021/Sep/29/2002864360/-1/-1/0/200204-F-XO631-9049.JPG",
+        "designation": "E-3",
+        "callsign": "Sentry",
+        "manufacturer": "Boeing"
+    },
+    {
+        "type": "plane",
+        "category": "reconnaissance",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/E-7A_Wedgetail_assigned_to_RAAF_Base%2C_lands_at_Nellis_Air_Force_Base.jpg",
+        "designation": "E-7",
+        "callsign": "Wedgetail",
+        "manufacturer": "Boeing"
+    },
+    {
+        "type": "plane",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/F-15C_Eagle_from_the_44th_Fighter_Squadron_flies_during_a_routine_training_exercise_April_15%2C_2019.jpg",
+        "designation": "F-15",
+        "callsign": "Eagle",
+        "manufacturer": "McDonnell Douglas"
+    },
+    {
+        "type": "plane",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/F-16_June_2008.jpg/1200px-F-16_June_2008.jpg",
+        "designation": "F-16",
+        "callsign": "Fighting Falcon",
+        "manufacturer": "General Dynamics"
+    },
+    {
+        "type": "plane",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/US_Navy_051105-F-5480T-005_An_F-14D_Tomcat_conducts_a_mission_over_the_Persian_Gulf-region.jpg",
+        "designation": "F-14",
+        "callsign": "Tomcat",
+        "manufacturer": "Grumman"
+    },
+    {
+        "type": "plane",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/FA-18C_desert_refueling.jpg",
+        "designation": "F/A-18",
+        "callsign": "Hornet",
+        "manufacturer": "McDonnell Douglas"
+    },
+    {
+        "type": "plane",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet%2C_from_the_Red_Rippers_of_Strike_Fighter_Squadron_%28VFA%29_11%2C_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg/800px-thumbnail.jpg",
+        "designation": "F/A-18",
+        "callsign": "Super Hornet",
+        "manufacturer": "Boeing"
+    },
+    {
+        "type": "plane",
+        "category": "military",
+        "image": "https://images04.military.com/sites/default/files/media/equipment/military-aircraft/f-35b-lightning-ii/2014/02/f-35b-lightning-ii_008.jpg",
+        "designation": "F-35B",
+        "callsign": "Lightning II",
+        "manufacturer": "Lockheed Martin"
+    },
+    {
+        "type": "plane",
+        "category": "military",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/F-22_Raptor_edit1_%28cropped%29.jpg",
+        "designation": "F-22",
+        "callsign": "Raptor",
+        "manufacturer": "Lockheed Martin"
     }
 ]

@@ -8,15 +8,35 @@ export default function App({nextScore}) {
     const [itemIndex, setItemIndex] = useState(0);
     const [questionIndex, setQuestionIndex] = useState(0);
     const [multipleChoiceOptions, setMultipleChoiceOptions] = useState([]);
+    const [completed, setCompleted] = useState([]);
 
     useEffect(() => {
-        let newItemIndex = Math.floor(Math.random() * items.length);
-        setItemIndex(newItemIndex);
+        let newItemIndex = pickNewItem();
         
         let newQuestionIndex = Math.floor(Math.random() * questions.length);
         if (questions[newQuestionIndex].type === "multiple_choice") loadMultipleChoice(newItemIndex, questions[newQuestionIndex].answer);
         setQuestionIndex(newQuestionIndex);
     }, []);
+
+    function pickNewItem(next=false) {
+        let newItemIndex;
+        setItemIndex(newItemIndex);
+
+        if (next) {
+            newItemIndex = itemIndex===items.length-1?0:itemIndex+1;
+        } else {
+            newItemIndex = Math.floor(Math.random() * items.length);
+        }
+
+        if (completed.includes(items[newItemIndex].callsign)) {
+            if (next) setItemIndex(newItemIndex);
+            
+            newItemIndex = pickNewItem(next);
+        }
+        setItemIndex(newItemIndex);
+
+        return newItemIndex;
+    }
 
     function check() {
         const inputs = document.querySelectorAll(".inputs input");
@@ -41,6 +61,7 @@ export default function App({nextScore}) {
             
             if (answers.filter((r, index)=>checkAnswer(r, userAnswers[index])).length === 3) {//JSON.stringify(answers) === JSON.stringify(userAnswers)) {
                 toast.success("Correct!");
+                setCompleted([...completed, items[itemIndex].callsign]);
                 next(inputs);
                 nextScore(true);
             } else {
@@ -63,8 +84,7 @@ export default function App({nextScore}) {
         if (questions[questionIndex].type === "multiple_choice") inputs.forEach((r)=>r.parentElement.delete());
         else inputs.forEach((r)=>r.value = "");
 
-        let newItemIndex = itemIndex==items.length-1?0:itemIndex+1;
-        setItemIndex(newItemIndex);
+        let newItemIndex = pickNewItem(true);
 
         let newQuestionIndex = Math.floor(Math.random() * questions.length);
         if (questions[newQuestionIndex].type === "multiple_choice") loadMultipleChoice(newItemIndex, questions[newQuestionIndex].answer);
