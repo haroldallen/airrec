@@ -33,10 +33,11 @@ header {
     padding: 12px 48px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 24px;
     width: 100%;
 }
-header .left {
+header > div {
     display: flex;
     align-items: center;
     gap: 24px;
@@ -54,6 +55,16 @@ header .left span {
 }
 header .left .title {
     height: 59px;
+}
+header .settings {
+    background: transparent;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+}
+header .settings img {
+    height: 24px;
 }
 
 .content {
@@ -115,3 +126,7 @@ button:hover {
     cursor: pointer;
 }
 .question button { width: 100%; }
+
+.setting.checkboxes label {
+    text-transform: capitalize;
+}
