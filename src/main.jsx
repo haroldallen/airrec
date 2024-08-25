@@ -45,7 +45,7 @@ function Main() {
     return <>
         <header className="jsb">
             <div className="left">
-                <a className="logo" href="/">ALLEN</a><span>/</span>
+                <a className="logo" href="https://www.hallen.uk">ALLEN</a><span>/</span>
                 <p className="title">airrec</p>
             </div>
             <div>
